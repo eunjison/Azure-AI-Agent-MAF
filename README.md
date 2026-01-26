@@ -68,33 +68,6 @@ pip install -e .
 cp .env.sample .env
 # .env 파일에 Azure OpenAI 정보 입력
 ```
-
-### 📦 패키지 설치 옵션
-
-#### pip를 사용한 설치
-```bash
-# 전체 설치 (모든 기능 포함, 권장)
-pip install agent-framework --pre
-
-# 최소 설치 (Core + Azure OpenAI만)
-pip install agent-framework-core --pre
-
-# Azure AI 통합 포함
-pip install agent-framework-azure-ai --pre
-
-# 추가 데이터 분석 패키지
-pip install pandas numpy matplotlib yfinance seaborn
-```
-
-#### pyproject.toml을 사용한 설치
-```bash
-# 개발 환경에서 editable mode로 설치 (권장)
-pip install -e .
-
-# 개발 도구 포함 설치
-pip install -e ".[dev]"
-```
-
 ### 3️⃣ Azure OpenAI 설정
 `.env` 파일에 다음 정보를 입력하세요:
 ```env
