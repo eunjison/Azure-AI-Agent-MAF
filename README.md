@@ -83,10 +83,6 @@ OPENWEATHER_API_KEY=your-openweather-api-key
 GOOGLE_API_KEY=your-google-api-key
 EXCHANGE_RATE_API_KEY=your-exchange-rate-api-key
 ```
-# key 임시
-AZURE_OPENAI_ENDPOINT=https://eusonopenai.openai.azure.com/
-AZURE_OPENAI_API_KEY=8jPfAc1tPQbVfcwXBya44ZGtRFsxsawBGGb1GonX25OWd8IH1fLqJQQJ99ALACNns7RXJ3w3AAABACOGTUse
-
 ---
 
 ## 📚 실습 노트북 가이드
