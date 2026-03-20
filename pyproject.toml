@@ -13,9 +13,9 @@ requires-python = ">=3.10"
 
 dependencies = [
     # Core Microsoft Agent Framework - 모든 노트북에서 필요
-    "agent-framework>=1.0.0b260123",
-    "agent-framework-core>=1.0.0b260123",
-    "agent-framework-azure-ai>=1.0.0b260123",
+    "agent-framework==1.0.0b260123",
+    "agent-framework-core==1.0.0b260123",
+    "agent-framework-azure-ai==1.0.0b260123",
     
     # Azure Integration - Azure OpenAI 및 AI 서비스
     "azure-identity>=1.15.0",
