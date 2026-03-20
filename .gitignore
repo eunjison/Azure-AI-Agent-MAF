@@ -1,2 +1,4 @@
 .env
 azure_ai_agent_workshop_maf.egg-info/
+checkpoints/
+outputs/
