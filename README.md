@@ -92,6 +92,25 @@ Azure OpenAI 인증은 `DefaultAzureCredential`만 사용합니다.
 ```bash
 az login
 ```
+
+### 4️⃣ GitHub Codespaces 사용
+
+이 저장소는 GitHub Codespaces용 개발 컨테이너 설정을 포함합니다.
+Codespace를 생성하면 Python, Jupyter, Azure CLI가 포함된 환경이 준비되고 `uv sync`가 자동으로 실행됩니다.
+
+**Codespaces 사용 순서:**
+1. GitHub에서 이 저장소를 연 뒤 **Code > Codespaces > Create codespace on main** 선택
+2. 컨테이너 초기화 완료 대기
+3. `.env` 파일에 Azure OpenAI 설정 입력
+4. Codespaces 터미널에서 아래 명령 실행
+
+```bash
+az login
+```
+
+5. Jupyter 커널로 `Python (Azure-AI-Agent-MAF)` 선택 후 노트북 실행
+
+Codespaces에서도 Azure OpenAI 인증은 `DefaultAzureCredential`만 사용합니다. `AZURE_OPENAI_API_KEY` 또는 `api_key=` 방식은 사용하지 않습니다.
 ---
 
 ## 📚 실습 노트북 가이드
